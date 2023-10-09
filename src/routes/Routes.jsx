@@ -19,10 +19,12 @@ const router = createBrowserRouter([
             {
                 path: '/Courses',
                 element: <Courses></Courses>
+                loader:()=>fetch()
             },
             {
                 path: '/Techers',
-                element: <Techers></Techers>
+                element: <Techers></Techers>,
+                loader:()=>fetch('public/Json/Teacher.json')
             },
             {
                 path: '/Blog',
