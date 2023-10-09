@@ -3,6 +3,7 @@ import { AiFillAccountBook } from "react-icons/ai";
 import { FaBookOpen, FaGlobeAfrica} from "react-icons/fa";
 import HomePart1 from './HomePart1/HomePart1';
 import { useLoaderData } from 'react-router-dom';
+import ComingEvent from './Coming-event/ComingEvent';
 
 const Home = () => {
     const catagores =useLoaderData()
@@ -15,7 +16,7 @@ const Home = () => {
             {{backgroundImage: `url(${image})`}}  >
             
             <div className=' space-y-10 py-40   '>
-                <h1 className=' text-6xl  text-center text-white  font-extrabold m-auto w-6/12  '>Growth You Career With  Complate Courses</h1>
+                <h1 className=' text-6xl  text-center text-white  font-extrabold m-auto w-5/12  '>Growth You Career With  Complate Courses</h1>
                 <div className=' space-x-10  text-white flex  justify-center gap-5'>
                 <div className='flex mt-5 '>
                 <AiFillAccountBook className=' text-lg mr-3 text-[#FFB606]' ></AiFillAccountBook><p>ARCHITECTURE</p> 
@@ -30,7 +31,9 @@ const Home = () => {
             </div>
         </div>
             <HomePart1 catagores={catagores}></HomePart1>
-            
+            <div>
+                <ComingEvent></ComingEvent>
+            </div>
         </div>
     );
 };
