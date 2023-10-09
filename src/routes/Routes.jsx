@@ -3,8 +3,8 @@ import Root from "../layouts/Root";
 import Home from "../pages/Home/Home";
 import Courses from "../pages/courses/Courses";
 import Techers from "../pages/Techers/Techers";
-import Blog from "../pages/Blog/Blog";
 import Contract from "../pages/Contract/Contract";
+import Event from "../pages/Blog/Event";
 
 const router = createBrowserRouter([
     {
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
             },
             {
                 path: '/Courses',
-                element: <Courses></Courses>
-                loader:()=>fetch()
+                element: <Courses></Courses>,
+                loader:()=>fetch('/public/Json/course.json')
             },
             {
                 path: '/Techers',
@@ -27,8 +27,8 @@ const router = createBrowserRouter([
                 loader:()=>fetch('public/Json/Teacher.json')
             },
             {
-                path: '/Blog',
-                element: <Blog></Blog>
+                path: '/Event',
+                element:<Event></Event>
             },
             {
                 path: '/Contract',

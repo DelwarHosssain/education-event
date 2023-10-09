@@ -1,57 +1,63 @@
 [
     {
       "course_id": 1,
-      "course_name": "Introduction to Programming",
+      "course_name": "Data Science And Software",
       "credits": 3,
-      "price": 299.99,
+      "price": 299,
       "details": "A beginner-level course that covers the fundamentals of programming using popular programming languages like Python and Java.",
-      "course_image": "https://example.com/course_images/intro_to_programming.jpg",
-      "teacher_image": "https://example.com/teacher_images/john_smith.jpg"
+      "course_image": "https://i.ibb.co/JtVhz33/1-1.jpg",
+      "teacher_image": "https://i.ibb.co/nw9VKk8/1-2.jpg"
     },
     {
       "course_id": 2,
-      "course_name": "Biology 101",
+      "course_name": "Social Science & Humanities",
       "credits": 4,
-      "price": 349.99,
+      "price": 349,
       "details": "An introductory course in biology, covering topics such as cell biology, genetics, and ecology.",
-      "course_image": "https://example.com/course_images/biology_101.jpg",
-      "teacher_image": "https://example.com/teacher_images/mary_johnson.jpg"
+      "course_image": "https://i.ibb.co/HGv7KwH/2-2.jpg",
+      "teacher_image": "https://i.ibb.co/hsfnXyR/2-3.jpg"
     },
     {
       "course_id": 3,
-      "course_name": "History of World Civilizations",
+      "course_name": "Programming Masterclass",
       "credits": 3,
-      "price": 259.99,
+      "price": 259,
       "details": "An exploration of major civilizations throughout history, their cultures, and their impact on the world.",
-      "course_image": "https://example.com/course_images/history_of_civilizations.jpg",
-      "teacher_image": "https://example.com/teacher_images/david_wilson.jpg"
+      "course_image": "https://i.ibb.co/0QsK7xZ/3-2.jpg",
+      "teacher_image": "https://i.ibb.co/ZmJkgZM/3-3.jpg"
     },
     {
       "course_id": 4,
-      "course_name": "Mathematics for Engineers",
+      "course_name": "Professional Web Development",
       "credits": 4,
-      "price": 399.99,
+      "price": 399,
       "details": "A mathematics course designed for engineering students, covering calculus, linear algebra, and differential equations.",
-      "course_image": "https://example.com/course_images/math_for_engineers.jpg",
-      "teacher_image": "https://example.com/teacher_images/emily_davis.jpg"
+      "course_image": "https://i.ibb.co/my5cG21/4-1.jpg",
+      "teacher_image": "https://i.ibb.co/K07XStx/3-4.jpg"
     },
     {
       "course_id": 5,
-      "course_name": "Art Appreciation",
+      "course_name": "Causal Creative Learning",
       "credits": 2,
-      "price": 199.99,
+      "price": 199,
       "details": "An exploration of various art forms and styles, including painting, sculpture, and architecture.",
-      "course_image": "https://example.com/course_images/art_appreciation.jpg",
-      "teacher_image": "https://example.com/teacher_images/sarah_brown.jpg"
+      "course_image": "https://i.ibb.co/zXyLBN8/5.jpg",
+      "teacher_image": "https://i.ibb.co/NCMtJmB/5-1.jpg"
     },
     {
       "course_id": 6,
-      "course_name": "Physics 201",
+      "course_name": "Basic English Speaking",
       "credits": 4,
-      "price": 349.99,
+      "price": 349,
       "details": "An intermediate-level physics course covering topics such as mechanics, electromagnetism, and thermodynamics.",
-      "course_image": "https://example.com/course_images/physics_201.jpg",
-      "teacher_image": "https://example.com/teacher_images/michael_clark.jpg"
+      "course_image": "https://i.ibb.co/N6qscP5/6.jpg",
+      "teacher_image": "https://i.ibb.co/jwWkfry/6-1.jpg"
     }
   ]
   
+ 
+
+
+
+
+

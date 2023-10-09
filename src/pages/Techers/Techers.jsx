@@ -7,7 +7,7 @@ const Techers = () => {
     
     return (
         <div>
-        <h1 className="mt-40  ml-[30%] text-5xl font-bold">ADVISOR CAROUSEL</h1>
+        <h1 className="mt-40  text-center text-5xl font-bold">ADVISOR CAROUSEL</h1>
         <div className=" grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 ml-8 xl:grid-cols-3 md:ml-6 lg:ml-44 xl:ml-32  2xl:ml-96">
             
             {

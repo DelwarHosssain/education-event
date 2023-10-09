@@ -1,6 +1,6 @@
 import '../../../Catragore/catragore.css'
 const Catagore = ({catagore}) => {
-    const{picture,color, title,category,cadite,Course} =catagore||{}
+    const{picture, title,category,cadite,Course} =catagore||{}
 
     
     return (
