@@ -1,0 +1,60 @@
+
+   [
+            {
+                "id": 1,
+                "picture": "https://i.ibb.co/31vtxV5/rsz-workflow-6174990.png",
+                "title": "ANALYSIS OF ALGORITHMS",
+                "category": "Current Enrolled",
+                "cadite": "1274",
+                "Course": "28 COURSES",
+                "color":"#ee72c1"
+            },
+            {
+                "id": 2,
+                "picture": "https://i.ibb.co/X5N4Q57/computer-science-10350490.png.png",
+                "title": "COMPUTER SCIENCE",
+                "category": "Current Enrolled",
+                "cadite": "1470",
+                "Course": "60 COURSES",
+                "color":"#ee72c1"
+            },
+            {
+                "id": 3,
+                "picture": "https://i.ibb.co/bdXsYSB/virus-3337140.png",
+                "title": "Data SCIENCE",
+                "category": "Current Enrolled",
+                "cadite": "950",
+                "Course": "75 COURSES",
+                "color":"#ee72c1"
+            },
+            {
+                "id": 4,
+                "picture": "https://i.ibb.co/3T0n7mw/lab-4336882.png",
+                "title": "ENGINEERING",
+                "category": "Current Enrolled",
+                "cadite": "1200",
+                "Course": "90 COURSES",
+                "color":"#ee72c1"
+            },
+            {
+                "id": 5,
+                "picture": "https://i.ibb.co/Dktdf22/building-267041.png",
+                "title": "ARCHITECTURE",
+                "category": "Current Enrolled",
+                "cadite": "8000",
+                "Course": "40 COURSES",
+                "color":"#ee72c1"
+            },
+            {
+                "id": 6,
+                "picture": "https://i.ibb.co/Vgtyf0q/watercolor-5439495.png",
+                "title": "ART & DESIGN",
+                "category": "Current Enrolled",
+                "cadite": "7500",
+                "Course": "100 COURSES",
+                "color":"#ee72c1"
+                
+            }
+    ]
+   
+

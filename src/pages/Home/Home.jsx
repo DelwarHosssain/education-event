@@ -2,8 +2,11 @@ import image from '../../assets/11.jpg'
 import { AiFillAccountBook } from "react-icons/ai";
 import { FaBookOpen, FaGlobeAfrica} from "react-icons/fa";
 import HomePart1 from './HomePart1/HomePart1';
+import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
+    const catagores =useLoaderData()
+    
     return (
         
         <div className=''>
@@ -26,7 +29,8 @@ const Home = () => {
                </div>
             </div>
         </div>
-            <HomePart1></HomePart1>
+            <HomePart1 catagores={catagores}></HomePart1>
+            
         </div>
     );
 };
