@@ -3,7 +3,7 @@ import ComingEvent from "../Home/Coming-event/ComingEvent";
 
 const Event= () => {
     return (
-        <div>
+        <div className="mb-10">
             <ComingEvent></ComingEvent>
         </div>
     );

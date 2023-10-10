@@ -4,6 +4,9 @@ import { FaBookOpen, FaGlobeAfrica} from "react-icons/fa";
 import HomePart1 from './HomePart1/HomePart1';
 import { useLoaderData } from 'react-router-dom';
 import ComingEvent from './Coming-event/ComingEvent';
+import Contracts from './HomePart1/Contract/Contracts';
+
+
 
 const Home = () => {
     const catagores =useLoaderData()
@@ -33,6 +36,9 @@ const Home = () => {
             <HomePart1 catagores={catagores}></HomePart1>
             <div>
                 <ComingEvent></ComingEvent>
+            </div>
+            <div className='bg-[#002147] py-10 mt-10'>
+                <Contracts></Contracts>
             </div>
         </div>
     );
