@@ -1,8 +1,11 @@
-# React + Vite
+1.Ans: B.ReferenceError: greetign is not defined
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+becouse:let greeting; declares a variable named "greeting," but it does not assign any value to it, so it's initially undefined.
 
-Currently, two official plugins are available:
+greetign = {}; attempts to assign an empty object to a variable named "greetign," but there is no such variable declared in the code. There's a typo in the variable name; it should be "greeting" instead of "greetign."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Since "greetign" is not defined anywhere in the code, JavaScript throws a ReferenceError, indicating that the variable is not defined.
+
+
+
+2.Ans:

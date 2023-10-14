@@ -8,8 +8,10 @@ import Contracts from './HomePart1/Contract/Contracts';
 
 
 
+
 const Home = () => {
     const catagores =useLoaderData()
+
     
     return (
         
