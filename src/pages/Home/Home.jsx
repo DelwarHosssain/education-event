@@ -13,30 +13,32 @@ const Home = () => {
     const catagores =useLoaderData()
 
     
+
+    
     return (
         
         <div className=''>
-            <div className='mt-24  bg-no-repeat bg-fixed brightness-50  ' style=  
+            <div className='   mt-0 md:mt-24    bg-no-repeat bg-cover  brightness-50 bg-fixed  md:bg-fixed  ' style=  
             
             {{backgroundImage: `url(${image})`}}  >
             
-            <div className=' space-y-10 py-40   '>
-                <h1 className=' text-6xl  text-center text-white  font-extrabold m-auto w-5/12  '>Growth You Career With  Complate Courses</h1>
-                <div className=' space-x-10  text-white flex  justify-center gap-5'>
+            <div className=' space-y-10 py-40  mb-48 '>
+                <h1 className='text-sm font-base  md:text-6xl  text-center text-white  md:font-extrabold m-auto  w-5/12  '>Growth You Career With  Complate Courses</h1>
+                <div className=' space-x-3 md:space-x-10  text-white flex  justify-center gap-1'>
                 <div className='flex mt-5 '>
-                <AiFillAccountBook className=' text-lg mr-3 text-[#FFB606]' ></AiFillAccountBook><p>ARCHITECTURE</p> 
+                <AiFillAccountBook className='text-sm md:text-lg mr-3 text-[#FFB606]' ></AiFillAccountBook><p>ARCHITECTURE</p> 
                 </div>
                 <div className='flex mt-5 '>
-                <FaBookOpen className=' text-lg mr-3  text-[#FFB606]'></FaBookOpen> <p>EDUCATION</p>
+                <FaBookOpen className='text-sm md:text-lg mr-3  text-[#FFB606]'></FaBookOpen> <p>EDUCATION</p>
                 </div>
                 <div className='flex mt-5'>
-                <FaGlobeAfrica className=' text-lg mr-3 text-[#FFB606]'></FaGlobeAfrica><p> GEOGRAPHY</p>
+                <FaGlobeAfrica className='text-sm md:text-lg mr-3 text-[#FFB606]'></FaGlobeAfrica><p> GEOGRAPHY</p>
                 </div>
                </div>
             </div>
         </div>
-            <HomePart1 catagores={catagores}></HomePart1>
-            <div>
+            <div className=' ml-7'><HomePart1 catagores={catagores}></HomePart1></div>
+            <div className='container mx-auto ml-2'>
                 <ComingEvent></ComingEvent>
             </div>
             <div className='bg-[#002147] py-10 mt-10'>

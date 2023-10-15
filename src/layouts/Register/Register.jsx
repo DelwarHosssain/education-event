@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContacex } from "../../Hook/AuthProvider";
 
 
@@ -8,6 +8,7 @@ const Register = () => {
 
 
     const { createUser } = useContext(AuthContacex)
+    const navigate =useNavigate();
     
 
     const hendleRegistation  =e =>{
@@ -19,6 +20,8 @@ const Register = () => {
         createUser(email, password)
         .then(Result=>{
             console.log(Result.user)
+            e.target.reset();
+            navigate('/login')
         })
         .catch(error=>{
             console.error(error);
@@ -55,7 +58,7 @@ const Register = () => {
                         </label>
                     </div>
                     <div className="form-control mt-6 ">
-                        <button className=" w-full btn btn-primary">Registation</button>
+                        <button className="btn btn-primary">Registation</button>
                     </div>
                     </form>
                     <div className="ml-14 mb-10">

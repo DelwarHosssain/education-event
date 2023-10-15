@@ -21,8 +21,8 @@ button {
     position: absolute;
     z-index: -1;
     background: var(--color);
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 300px;
     border-radius: 50%;
    }
    
@@ -33,7 +33,7 @@ button {
    button:before {
     top: 100%;
     left: 100%;
-    transition: all .7s;
+    transition: all .9s;
    }
    
    button:hover:before {
@@ -44,4 +44,13 @@ button {
    button:active:before {
     background: #560bad;
     transition: background 0s;
+   }
+
+
+
+   @media screen and (max-width: 480px) {
+    button{
+        font-size: 10px;
+    }
+    
    }

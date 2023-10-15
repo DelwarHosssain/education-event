@@ -1,15 +1,16 @@
 /* eslint-disable react/jsx-no-undef */
 
 import { useContext } from "react";
-import { Link } from "react-router-dom";
-
+import { Link, useNavigate } from "react-router-dom";
+import { FcGoogle } from 'react-icons/fc';
 import { AuthContacex } from "../../Hook/AuthProvider";
 
 
 
 const Login = () => {
 
-    const{singInUser}=useContext(AuthContacex)
+    const{singInUser, signInWithGoogle}=useContext(AuthContacex)
+    const navigate =useNavigate();
 
 
     const hendleLogIn  = e =>{
@@ -21,12 +22,24 @@ const Login = () => {
         singInUser(email, password)
         .then(Result=>{
             console.log(Result.user)
+            e.target.reset();
+            navigate('/')
         })
         .catch(error=>{
             console.error(error);
         })
     }
+    const googleHangler=()=>{
+        signInWithGoogle()
 
+        .then(Result=>{
+            console.log(Result.user)
+            navigate('/')
+        })
+        .catch(error=>{
+            console.error(error);
+        })
+    }
 
 
     return (
@@ -51,12 +64,16 @@ const Login = () => {
                         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                         </label>
                     </div>
+                    <button onClick={googleHangler} className=" flex  items-center gap-2 text-orange-600 p-2 m-auto">
+                        <h1 className=" text-xs">Login With :</h1>
+                        <p><FcGoogle></FcGoogle></p>
+                    </button>
                     <div className="form-control mt-6">
                         <button className="btn btn-primary w-full ">Login</button>
                     </div>
                     </form>
                     <div className="ml-20 mb-10">
-                        <p> New Here <Link to={"/Register"}> <span className=" text-orange-400">Register</span> </Link></p>
+                        <p> New Here <Link to={"/Register"}> <span className=" text-orange-400 w-10 md:w-fit text-base md:">Register</span> </Link></p>
                     </div>
                 </div>
                 </div>

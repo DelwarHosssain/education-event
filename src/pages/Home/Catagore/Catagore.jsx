@@ -1,4 +1,5 @@
 import '../../../Catragore/catragore.css'
+// eslint-disable-next-line react/prop-types
 const Catagore = ({catagore}) => {
     const{picture, title,category,cadite,Course} =catagore||{}
 

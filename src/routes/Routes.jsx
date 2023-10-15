@@ -7,6 +7,7 @@ import Event from "../pages/Blog/Event";
 import Register from "../layouts/Register/Register";
 import Login from "../layouts/Login/Login";
 import Contract from "../pages/Contract/Contract";
+import PrivetRoute from "../PrivetRoute/PrivetRoute";
 
 const router = createBrowserRouter([
     {
@@ -20,12 +21,12 @@ const router = createBrowserRouter([
             },
             {
                 path: '/Courses',
-                element: <Courses></Courses>,
+                element: <PrivetRoute><Courses></Courses></PrivetRoute>,
                 loader:()=>fetch('/public/Json/course.json')
             },
             {
                 path: '/Techers',
-                element: <Techers></Techers>,
+                element: <PrivetRoute><Techers></Techers></PrivetRoute>,
                 loader:()=>fetch('public/Json/Teacher.json')
             },
             {
