@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContacex } from "../../Hook/AuthProvider";
+import Swal from "sweetalert2";
 
 
 const Register = () => {
@@ -9,8 +10,6 @@ const Register = () => {
 
     const { createUser } = useContext(AuthContacex)
     const navigate =useNavigate();
-    
-
     const hendleRegistation  =e =>{
         e.preventDefault();
         const name =e.target.name.value;
@@ -21,11 +20,21 @@ const Register = () => {
         .then(Result=>{
             console.log(Result.user)
             e.target.reset();
+            Swal.fire(
+                'Registation Success',
+                'You clicked the button!',
+                'success'
+              )
             navigate('/login')
+
         })
+        
         .catch(error=>{
             console.error(error);
         })
+        if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password)) {
+            console.log("incorret")
+        }
     }
 
 

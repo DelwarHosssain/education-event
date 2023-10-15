@@ -6,7 +6,9 @@ const Techers = () => {
     const Teachers =useLoaderData()
     
     return (
-        <div>
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <h1 className="mt-40  text-center text-5xl font-bold">ADVISOR CAROUSEL</h1>
         <div className=" grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 ml-8 xl:grid-cols-3 md:ml-6 lg:ml-44 xl:ml-32  2xl:ml-96">
             

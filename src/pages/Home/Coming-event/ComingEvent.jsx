@@ -10,7 +10,7 @@ const ComingEvent = () => {
             <div  className=" w-56  m-auto border  border-[#FFB606]"></div>
             <p className=" text-base  font-medium">Discourse assurance estimable applauded to so. Him everything melancholy uncommonly but solicitude inhabiting <br /> projection off. Connection stimulated estimating excellence an to impression.z</p>
             </div>
-            <div className="mt-0 md:mt-20 ">
+            <div className="mt-0 md:mt-20" data-aos="fade-right"  >
                 <div className="grid grid-cols-1 md:grid-cols-2 bg-base-100   shadow-xl  gap-4">
                     <figure><img className="h-96" src="https://i.ibb.co/rs0bTkP/1.jpg" alt="Movie"/></figure>
                     <div className="flex   mt-10 space-x-11   ">
@@ -34,7 +34,7 @@ const ComingEvent = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-20">
+            <div className="mt-20 " data-aos="fade-left" >
                 <div className="grid grid-cols-1 md:grid-cols-2 bg-base-100  shadow-xl  gap-4">
                     <figure><img className="h-96" src="https://i.ibb.co/JtcDxgK/2.jpg" alt="Movie"/></figure>
                     <div className="flex   mt-10 space-x-11   ">
@@ -58,7 +58,7 @@ const ComingEvent = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-20">
+            <div className="mt-20" data-aos="fade-right"  >
                 <div className="grid grid-cols-1 md:grid-cols-2 bg-base-100  shadow-xl  gap-4">
                     <figure><img className="h-96" src="https://i.ibb.co/HdF8NDp/3.jpg" alt="Movie"/></figure>
                     <div className="flex   mt-10 space-x-11   ">

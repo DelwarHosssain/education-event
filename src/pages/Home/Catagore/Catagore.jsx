@@ -5,8 +5,10 @@ const Catagore = ({catagore}) => {
 
     
     return (
-        <div>
-            <div className=" w-96 border border-spacing-1 group  hover-1">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+            <div className=" w-96 border border-spacing-1 group  hover-1 ">
                 <div className=" flex px-5 py-20 space-x-5 group-hover:stroke-white hit">
                 <div>
                     <img  className=" w-20" src={picture} alt="" />

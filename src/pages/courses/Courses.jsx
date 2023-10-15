@@ -5,7 +5,9 @@ const Courses = () => {
     const courses =useLoaderData()
     console.log(courses)
     return (
-        <div className="mt-44 ml-5  mb-10"> 
+        <div className="mt-44 ml-5  mb-10"data-aos="fade-right"
+        data-aos-offset="120"
+        data-aos-easing="ease-in-sine"> 
             <h1 className=" text-3xl font-bold  text-center">Our COURSES</h1>
             <div className="mt-24 grid grid-cols-1 md:grid md:grid-cols-2 lg:grid-cols-3  gap-7 container mx-auto">
             {

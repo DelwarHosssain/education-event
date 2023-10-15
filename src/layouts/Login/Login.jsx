@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from 'react-icons/fc';
 import { AuthContacex } from "../../Hook/AuthProvider";
+import Swal from "sweetalert2";
 
 
 
@@ -24,6 +25,11 @@ const Login = () => {
             console.log(Result.user)
             e.target.reset();
             navigate('/')
+            Swal.fire(
+                'Login Success',
+                'You clicked the button!',
+                'success'
+              )
         })
         .catch(error=>{
             console.error(error);
