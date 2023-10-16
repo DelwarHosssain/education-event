@@ -1,55 +1,55 @@
 [
     {
-      "course_id": 1,
+      "id": 1,
       "course_name": "Data Science And Software",
       "credits": 3,
       "price": 299,
-      "details": "A beginner-level course that covers the fundamentals of programming using popular programming languages like Python and Java.",
+      "details": "Are you a beginner looking to embark on an exciting journey into the world of programming? The course is designed just for you. This beginner-level program will equip you with the fundamental skills needed to master popular programming languages like Python and Java. Whether you dream of becoming a software developer, data scientist, or a technology innovator, this course lays the foundation you need",
       "course_image": "https://i.ibb.co/JtVhz33/1-1.jpg",
       "teacher_image": "https://i.ibb.co/nw9VKk8/1-2.jpg"
     },
     {
-      "course_id": 2,
+      "id": 2,
       "course_name": "Social Science & Humanities",
       "credits": 4,
       "price": 349,
-      "details": "An introductory course in biology, covering topics such as cell biology, genetics, and ecology.",
+      "details": "Have you ever been fascinated by the mysteries of life and the natural world? The  course is your gateway to the captivating realm of biology. This introductory course covers a wide range of topics, including cell biology, genetics, and ecology. Throughout this 4-credit course, you will unravel the secrets of life, from the intricate mechanisms within a single cell to the complex interactions in ecosystems.",
       "course_image": "https://i.ibb.co/HGv7KwH/2-2.jpg",
       "teacher_image": "https://i.ibb.co/hsfnXyR/2-3.jpg"
     },
     {
-      "course_id": 3,
+      "id": 3,
       "course_name": "Programming Masterclass",
       "credits": 3,
       "price": 259,
-      "details": "An exploration of major civilizations throughout history, their cultures, and their impact on the world.",
+      "details": "Embark on an extraordinary journey through history with our  This course takes you on a captivating exploration of major civilizations throughout the ages, their diverse cultures, and their profound impact on the world. In this 3-credit course, you'll delve into the annals of history, discovering the rise and fall of empires, the achievements of great thinkers, and the societal changes that shaped the course of humanity.",
       "course_image": "https://i.ibb.co/0QsK7xZ/3-2.jpg",
       "teacher_image": "https://i.ibb.co/ZmJkgZM/3-3.jpg"
     },
     {
-      "course_id": 4,
+      "id": 4,
       "course_name": "Professional Web Development",
       "credits": 4,
       "price": 399,
-      "details": "A mathematics course designed for engineering students, covering calculus, linear algebra, and differential equations.",
+      "details": "Mathematics is the cornerstone of engineering, and our course is designed to provide engineering students with a solid mathematical foundation. This comprehensive course covers essential mathematical topics, including calculus, linear algebra, and differential equations.",
       "course_image": "https://i.ibb.co/my5cG21/4-1.jpg",
       "teacher_image": "https://i.ibb.co/K07XStx/3-4.jpg"
     },
     {
-      "course_id": 5,
+      "id": 5,
       "course_name": "Causal Creative Learning",
       "credits": 2,
       "price": 199,
-      "details": "An exploration of various art forms and styles, including painting, sculpture, and architecture.",
+      "details": "he world of art is a boundless realm of creativity and expression, and the  course invites you to explore it. This course is a journey through various art forms and styles, including painting, sculpture, and architecture. With 2 credits, this course offers an engaging exploration of the artistic world. Whether you're an aspiring artist or someone who appreciates the beauty of art, this course is designed for you. Our expert instructor will introduce you to the diverse forms of artistic expression and guide you through hands-on projects that allow your creativity to flourish.",
       "course_image": "https://i.ibb.co/zXyLBN8/5.jpg",
       "teacher_image": "https://i.ibb.co/NCMtJmB/5-1.jpg"
     },
     {
-      "course_id": 6,
+      "id": 6,
       "course_name": "Basic English Speaking",
       "credits": 4,
       "price": 349,
-      "details": "An intermediate-level physics course covering topics such as mechanics, electromagnetism, and thermodynamics.",
+      "details": "Physics is a fascinating and essential branch of science, and the Basic English Speaking course is here to guide you through its core principles. This intermediate-level physics course covers fundamental topics such as mechanics, electromagnetism, and thermodynamics.",
       "course_image": "https://i.ibb.co/N6qscP5/6.jpg",
       "teacher_image": "https://i.ibb.co/jwWkfry/6-1.jpg"
     }

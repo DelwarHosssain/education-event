@@ -6,9 +6,7 @@ const Teacher = ({teacher}) => {
     const{image,name,subject} =teacher||{}
 
     return (
-    <div className=' mt-10 mb-10 '>
-        <h1></h1>
-
+    <div className=' mt-10 mb-44 mr-96'>
         <div className="card-client">
             <div className="user-picture">
                <img src={image} alt="" />

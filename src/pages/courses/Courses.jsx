@@ -9,7 +9,7 @@ const Courses = () => {
         data-aos-offset="120"
         data-aos-easing="ease-in-sine"> 
             <h1 className=" text-3xl font-bold  text-center">Our COURSES</h1>
-            <div className="mt-24 grid grid-cols-1 md:grid md:grid-cols-2 lg:grid-cols-3  gap-7 container mx-auto">
+            <div className="mt-24 grid grid-cols-1 md:grid md:grid-cols-2 lg:grid-cols-3 mr-7 md:mr-0 md:pl-16 gap-7 container mx-auto">
             {
                 courses?.map(course=><Course key={course.id} course={course}></Course>)
             }

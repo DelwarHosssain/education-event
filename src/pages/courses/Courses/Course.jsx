@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
 
 
+// eslint-disable-next-line react/prop-types
 const Course = ({course}) => {
-    const{course_image,course_name,price,teacher_image}=course||{}
+    const{course_image,course_name,price,teacher_image, id}=course||{}
+    console.log(course)
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl">
@@ -20,7 +23,10 @@ const Course = ({course}) => {
                 </div>
                 <div className=" border"></div>
                 <div className="flex justify-between items-center">
+                    <Link to={`/Courses/${id}`}>
                     <button>See Details</button>
+
+                    </Link>
                     <h2>{price} $</h2>
                 </div>
                 </div>

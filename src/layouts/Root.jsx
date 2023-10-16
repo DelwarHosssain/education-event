@@ -10,7 +10,9 @@ const Root = () => {
            
            <NavBar></NavBar>
            
+            <div>
             <Outlet></Outlet>
+            </div>
             <Footer></Footer>  
         </div>
         </div>

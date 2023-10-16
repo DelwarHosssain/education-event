@@ -8,26 +8,29 @@ import Register from "../layouts/Register/Register";
 import Login from "../layouts/Login/Login";
 import Contract from "../pages/Contract/Contract";
 import PrivetRoute from "../PrivetRoute/PrivetRoute";
+import ErrorPage from "../ErrorPage/ErrorPage";
+import CuorseVisit from "../pages/Contract/CuorseVisit";
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Root></Root>, 
+        element: <Root></Root>,
+        errorElement :<ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
                 element: <Home></Home>,
-                loader:()=>fetch('public/Json/Catagore.json')
+                loader:()=>fetch('/Json/Catagore.json')
             },
             {
                 path: '/Courses',
                 element: <PrivetRoute><Courses></Courses></PrivetRoute>,
-                loader:()=>fetch('/public/Json/course.json')
+                loader:()=>fetch('/Json/course.json')
             },
             {
                 path: '/Techers',
                 element: <PrivetRoute><Techers></Techers></PrivetRoute>,
-                loader:()=>fetch('public/Json/Teacher.json')
+                loader:()=>fetch('/Json/Teacher.json')
             },
             {
                 path: '/Contract',
@@ -46,7 +49,11 @@ const router = createBrowserRouter([
                 element: <Register></Register>
             },
             
-        
+            {
+                path:'/Courses/:id',
+                element:<CuorseVisit></CuorseVisit>,
+                loader:()=>fetch('/Json/course.json')
+            }
         ]
         
     }    

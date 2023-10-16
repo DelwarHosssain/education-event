@@ -8,7 +8,7 @@ const Register = () => {
 
 
 
-    const { createUser } = useContext(AuthContacex)
+    const { createUser, logOut} = useContext(AuthContacex)
     const navigate =useNavigate();
     const hendleRegistation  =e =>{
         e.preventDefault();
@@ -20,6 +20,7 @@ const Register = () => {
         .then(Result=>{
             console.log(Result.user)
             e.target.reset();
+            logOut()
             Swal.fire(
                 'Registation Success',
                 'You clicked the button!',
@@ -32,15 +33,14 @@ const Register = () => {
         .catch(error=>{
             console.error(error);
         })
-        if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password)) {
-            console.log("incorret")
-        }
+        
+        
     }
 
 
     return (
         <div>
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero min-h-screen bg-base-200 mt-10">
                 <div className="hero-content flex-col ">
               
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

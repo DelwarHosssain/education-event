@@ -16,7 +16,7 @@ const ComingEvent = () => {
                     <div className="flex   mt-10 space-x-11   ">
                     
                     <div>
-                        <h1 className=" pl-3 text-5xl md:text-7xl text-[#FFB606] font-extrabold">16</h1>
+                        <h1 className=" pl-3 text-5xl md:text-7xl text-[#FFB606] font-extrabold">6</h1>
                         <p className="ml-3 pl-3  text-[#807c7c]">APR, 2023</p>
                     </div>
                     <div className="h-[100px] border-l-[2px] border-l-[#e9edf7] border-solid "></div>
@@ -64,7 +64,7 @@ const ComingEvent = () => {
                     <div className="flex   mt-10 space-x-11   ">
                     
                     <div>
-                        <h1 className="pl-3  text-7xl text-[#FFB606] font-extrabold">16</h1>
+                        <h1 className="pl-3  text-7xl text-[#FFB606] font-extrabold">9</h1>
                         <p className="ml-3  pl-3  text-[#807c7c]">AUG, 2024</p>
                     </div>
                     <div className="h-[100px] border-l-[2px] border-l-[#e9edf7] border-solid "></div>
